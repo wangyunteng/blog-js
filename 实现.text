@@ -1,0 +1,21 @@
+1. express 插件进行node使用
+2. sequelize mysql 数据库 先安装sequelize 这个库进行使用 然后安装mysql2这个库使用
+
+// 实现注册功能
+
+// 实现加密 npm i bcryptjs
+
+/**
+ * 加密处理 - 同步方法
+ * bcryptjs.hashSync(data, salt)
+ *    - data  要加密的数据
+ *    - slat  用于哈希密码的盐。如果指定为数字，则将使用指定的轮数生成盐并将其使用。推荐 10
+ */
+
+// 实现登录功能
+
+token验证
+cnpm i jsonwebtoken
+
+// 实现权限校验
+
