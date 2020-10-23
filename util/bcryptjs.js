@@ -6,9 +6,9 @@ function bcryptjs (password) {
 }
 function comparePwd(Mysqlpassword, password) {
   // 将传来的数据加密 并和数据库得到的password进行比较
-  let solve = bcryptjsMethod(password)
+  // let solve = bcryptjs(password)
   // 返回结果
-  return comparePwd=Bcryptjs.bcryptjs(Mysqlpassword,solve);
+  return Bcryptjs.compareSync(password,Mysqlpassword);
 }
 
 module.exports = {bcryptjs,comparePwd}
